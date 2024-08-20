@@ -7,3 +7,5 @@
 - [09/08 - Data Science](09_08.md)
 
 - [14/08 - Data Science](14_08.md)
+
+- [20/08 - Data Science](20_08.md)
