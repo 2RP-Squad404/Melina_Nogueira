@@ -12,4 +12,4 @@
 
 - [23/08 - Docker](relatorios/Docker.md)
 
-- [02/09 - Tarefa 2](relatorios/Relatório%20de%20Estudos.md)
+- [02/09 - Tarefa 2](relatorios/02_09.md)
