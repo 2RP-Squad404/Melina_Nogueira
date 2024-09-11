@@ -1,0 +1,11 @@
+{
+    "table_name": "clientes",
+    "columns": [
+      {"name": "id_cliente", "type": "INT64"},
+      {"name": "nome", "type": "STRING"},
+      {"name": "email", "type": "STRING"},
+      {"name": "data_nascimento", "type": "DATE"}
+    ],
+    "filter": "data_nascimento > '1990-01-01'"
+  }
+  
