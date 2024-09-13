@@ -13,3 +13,5 @@
 - [02/09 - Tarefa 2](relatorio/02_09.md)
 
 - [11/09 - Data Science](relatorio/11_09.md)
+
+- [13/09 - Automação de criação de views](relatorio/auto_view.md)
