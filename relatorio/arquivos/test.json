@@ -1,11 +1,10 @@
-{
-    "table_name": "clientes",
-    "columns": [
-      {"name": "id_cliente", "type": "INT64"},
-      {"name": "nome", "type": "STRING"},
-      {"name": "email", "type": "STRING"},
-      {"name": "data_nascimento", "type": "DATE"}
-    ],
-    "filter": "data_nascimento > '1990-01-01'"
+[
+  {
+      "rule": "Agrupar compras por cliente, calcular total gasto e localizar local mais frequente de compras",
+      "view": "CREATE VIEW v_compras_clientes AS SELECT client_id, SUM(price * amount) AS total_spent, purchase_location FROM purchases GROUP BY client_id, purchase_location;"
+  },
+  {
+      "rule": "Agrupar por produto, calcular quantidade total vendida e média de preço por produto",
+      "view": "CREATE VIEW v_vendas_produtos AS SELECT product_id, SUM(amount) AS total_vendido, AVG(price) AS preco_medio FROM purchases GROUP BY product_id;"
   }
-  
+]
