@@ -16,4 +16,4 @@
 
 - [13/09 - Automação de criação de views](relatorio/auto_view.md)
 
-- [20/09 - Automação de views - Regra de Negócio](relatorio/20_09.md)
+- [20/09 - Automação de views por regra de negócio](relatorio/20_09.md)
